@@ -46,10 +46,14 @@ This method uses sparse representation in a transform domain to selectively ampl
 |<img src="./Input/Deblur/Scenary.png" width="300"/> | <img src="./Ground_images/000258.png" width="300"/> | <img src="./output/Deblur/image (2).webp" width="300"/>|
 <img src="./Input/Deblur/Spain.png" width="300"/> | <img src="./Ground_images/000085.png" width="300"/> | <img src="./output/Deblur/image (3).webp" width="300"/>|
 
-## 1. Low Light Enhancement
+## 2. Low Light Enhancement
 | Input Image | Ground Truth | Final Enhanced Output |
 |----------------|------------------|------------------------|
-|<img src="./Input/Low_Light/1.png" width="300"/> | <img src="./Ground_images/000022.png" width="300"/> | <img src="./output/Low_Light/image (4).webp" width="300"/>|
-|<img src="./Input/Low_Light/179.png" width="300"/> | <img src="./Ground_images/000258.png" width="300"/> | <img src="./output/Low_Light/image (5).webp" width="300"/>|
-|<img src="./Input/Low_Light/669.png" width="300"/> | <img src="./Ground_images/000085.png" width="300"/> | <img src="./output/Low_Light/image (6).webp" width="300"/>|
-<img src="./Input/Low_Light/778.png" width="300"/> | <img src="./Ground_images/000085.png" width="300"/> | <img src="./output/Low_Light/image (7).webp" width="300"/>|
+|<img src="./Input/Low_Light/1.png" width="300"/> | <img src="./Ground_images/1.png" width="300"/> | <img src="./output/Low_Light/image (4).webp" width="300"/>|
+|<img src="./Input/Low_Light/179.png" width="300"/> | <img src="./Ground_images/179.png" width="300"/> | <img src="./output/Low_Light/image (5).webp" width="300"/>|
+|<img src="./Input/Low_Light/669.png" width="300"/> | <img src="./Ground_images/669.png" width="300"/> | <img src="./output/Low_Light/image (6).webp" width="300"/>|
+<img src="./Input/Low_Light/778.png" width="300"/> | <img src="./Ground_images/778.png" width="300"/> | <img src="./output/Low_Light/image (7).webp" width="300"/>|
+
+---
+
+### Evaluation of Models
