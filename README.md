@@ -43,7 +43,7 @@ This method uses sparse representation in a transform domain to selectively ampl
 | Input Image | Ground Truth | Final Enhanced Output |
 |----------------|------------------|------------------------|
 |<img src="./Input/Deblur/Garden.png" width="300"/> | <img src="./Ground_images/000022.png" width="300"/> | <img src="./output/Deblur/image (1).webp" width="300"/>|
-|<img src="./Input/Deblur/Scenary.png" width="300"/> | <img src="./Ground_images/000258.png" width="300"/> | <img src="./output/Deblur/image (2).webp" width="300"/>|
+|<img src="./Input/Deblur/Scenary.png" width="300"/> | <img src="./Ground_images/000222.png" width="300"/> | <img src="./output/Deblur/image (2).webp" width="300"/>|
 <img src="./Input/Deblur/Spain.png" width="300"/> | <img src="./Ground_images/000085.png" width="300"/> | <img src="./output/Deblur/image (3).webp" width="300"/>|
 
 ## 2. Low Light Enhancement
