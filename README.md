@@ -38,15 +38,15 @@ This method uses sparse representation in a transform domain to selectively ampl
 
 ---
 
-### Results
-  ## 1. Deblurring
+## Results
+  ### 1. Deblurring
 | Input Image | Ground Truth | Final Enhanced Output |
 |----------------|------------------|------------------------|
 |<img src="./Input/Deblur/Garden.png" width="300"/> | <img src="./Ground_images/000022.png" width="300"/> | <img src="./output/Deblur/image (1).webp" width="300"/>|
 |<img src="./Input/Deblur/Scenary.png" width="300"/> | <img src="./Ground_images/000222.png" width="300"/> | <img src="./output/Deblur/image (2).webp" width="300"/>|
 <img src="./Input/Deblur/Spain.png" width="300"/> | <img src="./Ground_images/000085.png" width="300"/> | <img src="./output/Deblur/image (3).webp" width="300"/>|
 
-## 2. Low Light Enhancement
+### 2. Low Light Enhancement
 | Input Image | Ground Truth | Final Enhanced Output |
 |----------------|------------------|------------------------|
 |<img src="./Input/Low_Light/1.png" width="300"/> | <img src="./Ground_images/1.png" width="300"/> | <img src="./output/Low_Light/image (4).webp" width="300"/>|
@@ -56,4 +56,26 @@ This method uses sparse representation in a transform domain to selectively ampl
 
 ---
 
-### Evaluation of Models
+## Evaluation of Models
+Evaluation is based on Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity Index (SSIM)—two standard metrics for assessing image quality.
+CNN Network for Image Deblurring
+### 1.The DGUNET model 
+This model aims to restore sharp details from blurred images.<br/><br/>
+•	**PSNR: 27.69 dB** – Indicates strong recovery of fine details and low reconstruction error.<br/>
+•	**SSIM: 0.9089** – Suggests high structural similarity to the original sharp images.<br/><br/>
+Interpretation:
+These results demonstrate that the CNN model is highly effective at removing blur, preserving edges and textures with strong perceptual and numerical quality.
+### 2. Sparse Transformer for Low-Light Enhancement
+This model is designed to enhance visibility in poorly lit images.<br/><br/>
+•	**PSNR: 19.46 dB** – Reflects reasonable restoration under difficult lighting conditions.<br/>
+•	**SSIM: 0.82** – Indicates moderate structural preservation and perceptual enhancement.<br/><br/>
+Interpretation:
+The transformer enhances brightness and contrast effectively but shows some limitations in recovering fine details and reducing noise under extreme low-light scenarios.
+Each model performs well within its domain:
+•	The CNN excels at deblurring, offering high visual fidelity and sharp reconstruction.
+•	The Sparse Transformer improves low-light visibility, though with slightly lower structural accuracy.
+<div style={display:"inline"}>
+<img src="./results/PSNR.png" width="33%" />
+<img src="./results/Loss.png" width="33%" />
+<img src="./results/SSIM.png" width="33%" />
+</div>
