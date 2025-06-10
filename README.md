@@ -34,7 +34,7 @@ DGUNet is a UNet-based architecture that integrates deep gradient priors to reco
 
 This method uses sparse representation in a transform domain to selectively amplify useful details in low-light regions while suppressing noise. It avoids overexposure and improves visibility without distorting color.
 
-<img src="./Architecture%20Images/Sparse%20Transformers%20.png" width="100%"/>
+<img src="./Architecture Images/diagram-export-5-14-2025-7_55_33-AM.png" width="100%"/>
 
 ---
 
